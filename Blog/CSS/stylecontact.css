@@ -1,0 +1,9 @@
+/*Charger la police*/
+@font-face {
+    font-family:"Eras";
+    src:url(../polices/ERASLGHT.woff);
+}
+body{
+	font-family:"Eras";
+	background-color:rgb(244, 244, 244);
+}

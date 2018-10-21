@@ -1,0 +1,139 @@
+/*Charger la police*/
+/*------------------------------------------------------------------*/
+@font-face {
+    font-family:"Eras";
+    src:url(../polices/ERASLGHT.woff);
+}
+
+
+
+/*Corps*/
+/*------------------------------------------------------------------*/
+body{
+	/*Police + couleur*/
+	font-family:"Eras", sans-serif;
+	color:#555;
+	/*Couleur de fond*/
+	background-color:white;
+	/*Enlever bordures blanches*/
+	margin:0;
+}
+
+
+
+/*En-tête*/
+/*------------------------------------------------------------------*/
+#Header{
+	/*Couleur de fond*/
+	background-color: rgb(8, 165, 122);
+	height:150px;
+	line-height:150px;
+}
+/*Liens*/
+#Header a{
+	text-decoration: none;
+	color:white;
+	
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+}
+#Header a:hover{
+	color:rgba(234, 230, 230, 0.55)
+}
+/*Titre*/
+#header-title{
+	display:block;
+	float:left;
+	
+	font-size:1.7em;
+	font-weight:bold;
+}
+#header-nav{
+	display:block;
+	float:right;
+	margin-top:0;
+}
+#header-nav li{
+	display:inline;
+	padding-left:20px;
+}
+.container{
+	max-width:60em;
+	margin:0 auto;
+}
+
+
+
+/*Pied de page*/
+/*------------------------------------------------------------------*/
+#footer{
+	background-color: rgb(49, 52, 52);
+	padding:1em 0;
+	margin:0em;
+}
+/*Images*/
+.logo{
+	width:3em;
+	height:3em;
+	margin:0 0.5em;
+}
+.column{
+	min-width:300px;
+	display:block;
+	vertical-align:top;
+}
+#footer h4{
+	color:rgb(8, 165, 122);
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	text-align:center;
+}
+#footer p{
+	color:white;
+	text-align:center;
+}
+footer h3{
+	font-weight:bold;
+}
+
+
+/*Contenu*/
+/*------------------------------------------------------------------*/
+p{
+	line-height:1.5em;
+}
+.post,.about{
+	max-width:80em;
+	margin: 0 auto;
+ 	padding: 3em 13em;
+}
+.about-title{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.about-author{
+	text-align:center;
+	border-radius: 50%;
+}
+.about-author img{
+	width:13em;
+	height:auto;
+}
+
+.about{
+	text-align: center;
+}
+.bloc-principal{
+	min-height:35em;
+}
+
+
+
+
+
+
+
+
+
+
+
